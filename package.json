@@ -1,0 +1,14 @@
+{
+  "name": "elastic-ips",
+  "version": "0.0.0",
+  "description": "Script to automate EIP requests/associations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MM",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "aws-sdk": "~2.2.31"
+  }
+}

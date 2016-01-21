@@ -1,0 +1,4 @@
+{
+    "static": [],
+    "dynamic": ["write here the list of ENI IDs that you want to update separated by comma"]
+}
