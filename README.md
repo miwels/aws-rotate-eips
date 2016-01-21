@@ -29,4 +29,13 @@ To change the EIPs of your instances.
 
 I know that the requirements of this script are very specific so feel free to fork me if you find it useful and you want to change it!
 
+**Important**
+
+The script assumes that all ENIs have an EIP associated. If one of your ENIs doesn't have an EIP and the script happens to select that ENI it will fail.
+
+The standard AWS account limit is 5 EIPs. The script first requests a new EIP so make sure that you have enough slots in your account.
+
+If you need to increase your account limit you'll have to submit a case but it's pretty straightforward and it takes less than a day. You can request a limit increase from this link:
+
+https://console.aws.amazon.com/support/home?region=us-east-1#/case/create
 
